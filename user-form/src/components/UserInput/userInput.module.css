@@ -1,0 +1,26 @@
+.form {
+  margin-top: 20px;
+}
+
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.inputDiv label {
+  font-weight: 650;
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+
+.inputDiv input {
+  padding: 7.5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.inputDiv input:focus {
+  outline: none;
+  border-color: #4f005f;
+}

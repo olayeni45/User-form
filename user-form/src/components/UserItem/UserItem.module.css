@@ -1,0 +1,26 @@
+.list {
+  display: flex;
+  border: 1px solid rgb(218, 217, 217);
+  justify-content: space-between;
+  padding: 5px 12px;
+  font-weight: 500;
+  margin: 5px 0 9px;
+}
+
+.flex {
+  display: flex;
+}
+
+.name {
+  margin-right: 3px;
+}
+
+@media (max-width: 576px) {
+  .list {
+    font-size: 14px;
+  }
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+}

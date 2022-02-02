@@ -1,0 +1,11 @@
+.userList {
+  margin: 20px 0;
+}
+
+.listItem:first-child {
+  margin-top: 20px;
+}
+
+.listItem:last-child {
+  margin-bottom: 20px;
+}
